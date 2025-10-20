@@ -50,3 +50,10 @@ Dictionary<string, string> testDict = new Dictionary<string, string>
     {"norsk", "Nå er vi i " + norMonthArray[month]}
 };
 Console.WriteLine(testDict[language]);
+/*
+Dictionary<string, string> frekkDict = new Dictionary<string, string>
+{
+    {"spansk", "el mes es " + spaMonthArray[month] },
+    {"engelsk", "The month is " + engMonthArray[month] },
+    {"norsk", "Nå er vi i " + norMonthArray[month]}
+};/*
