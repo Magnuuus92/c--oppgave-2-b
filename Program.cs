@@ -5,7 +5,7 @@ DateTime currentTime = DateTime.Now;
 Console.WriteLine("Input name:");
 string? name = Console.ReadLine();
 Console.WriteLine("input language:");
-//string? language = Console.ReadLine();
+
 
 //1. dklarer data - dictionary
 //2. konstruer key
@@ -22,21 +22,7 @@ string language = Console.ReadLine();
 Console.WriteLine(langDict[language]);
 int month = currentTime.Month - 1;
 
-/*Dictionary<int, string> monthDict = new Dictionary<int, string>
-{
-    {1 , "january" },
-    {2 , "february" },
-    {3 , "march" },
-{4 , "april" },
-{5 , "may" },
-{6 , "june" },
-{7 , "july" },
-{8 , "august" },
-{9 , "september" },
-{10 , "october" },
-{11 , "november" },
-{12 , "december" }
-};*/
+
 
 string[] norMonthArray =
 {
@@ -53,7 +39,7 @@ string[] engMonthArray =
     "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"
 };
 
-//Console.WriteLine(engMonthArray[month]);
+
 
 
 
