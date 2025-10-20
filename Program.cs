@@ -7,10 +7,7 @@ string? name = Console.ReadLine();
 Console.WriteLine("input language:");
 
 
-//1. dklarer data - dictionary
-//2. konstruer key
-//3. access dictionary with key
-//4. output final text (dictionary entry + date)
+
 
 Dictionary<string, string> langDict = new Dictionary<string, string>
 {
@@ -46,14 +43,8 @@ string[] engMonthArray =
 Dictionary<string, string> testDict = new Dictionary<string, string>
 {
     {"spansk", "el mes es " + spaMonthArray[month] },
-    {"engelsk", "The month is " + engMonthArray[month] },
+    {"engelsk", "The month is " + engMonthArray[month]},
     {"norsk", "Nå er vi i " + norMonthArray[month]}
 };
 Console.WriteLine(testDict[language]);
-/*
-Dictionary<string, string> frekkDict = new Dictionary<string, string>
-{
-    {"spansk", "el mes es " + spaMonthArray[month] },
-    {"engelsk", "The month is " + engMonthArray[month] },
-    {"norsk", "Nå er vi i " + norMonthArray[month]}
-};/*
+
